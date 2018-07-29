@@ -1,0 +1,11 @@
+@import './../../styles/mixins';
+
+.container {
+	@extend %mainContainer;
+}
+
+.buttonsContainer {
+	@extend %mainContainer;
+	margin-top: 20px;
+	text-align: right;
+}
